@@ -13,31 +13,33 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#1a365d',      // Azul marino profundo - Color principal
-                        secondary: '#2c5282',    // Azul medio - Color secundario
-                        accent: '#c19a6b',       // Dorado/beige elegante - Acentos
-                    },
-                    animation: {
-                        'bounce-slow': 'bounce 2s infinite',
+                        primary: '#1a365d', // Azul marino profundo - Color principal
+                        secondary: '#2c5282', // Azul medio - Color secundario
+                        accent: '#c19a6b', // Dorado/beige elegante - Acentos
                     }
+                    , animation: {
+                        'bounce-slow': 'bounce 2s infinite'
+                    , }
                 }
             }
         }
+
     </script>
     <style>
         html {
             scroll-behavior: smooth;
         }
-        
+
         .animate-fade-in {
             animation: fadeIn 0.7s ease-in;
         }
-        
+
         @keyframes fadeIn {
             from {
                 opacity: 0;
                 transform: translateY(20px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -52,11 +54,12 @@
         .video-overlay {
             background: linear-gradient(to top, rgba(26, 54, 93, 0.9), transparent);
         }
+
     </style>
 </head>
 
 <body class="font-sans bg-gray-50 text-gray-900">
-    
+
     <!-- Navigation -->
     <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <div class="container mx-auto px-4 lg:px-8">
@@ -64,26 +67,26 @@
                 <div class="flex items-center gap-2">
                     <img src="/images/facoadiccion-logo.jpg?height=&width=40" alt="Logo Dr. Fermín Silva" class="h-20 w-40">
                 </div>
-                
+
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center gap-6">
                     <a href="#inicio" class="text-gray-700 hover:text-primary transition-colors">Inicio</a>
                     <a href="#sobre-mi" class="text-gray-700 hover:text-primary transition-colors">Historia</a>
                     <a href="#estudios-medicos" class="text-gray-700 hover:text-primary transition-colors">Formación Médica</a>
                     <a href="#estudios-gerenciales" class="text-gray-700 hover:text-primary transition-colors">Formación Empresarial</a>
-                    <a href="#videos" class="text-gray-700 hover:text-primary transition-colors">Cirugías</a>
+                    <a href="#personalidades" class="text-gray-700 hover:text-primary transition-colors">Famosos</a>
                     <a href="#testimonios" class="text-gray-700 hover:text-primary transition-colors">Testimonios</a>
                     <a href="https://laluzeduca.clinicalaluz.com.pe/" class="text-gray-700 hover:text-primary transition-colors">La Luz Educa</a>
                     <a href="https://facoadiccion.pe/" class="text-gray-700 hover:text-primary transition-colors">Facoadicción 2026</a>
                     <a href="#contacto" class="bg-primary text-white px-6 py-2 rounded-lg hover:bg-secondary transition-colors">Contacto</a>
                 </div>
-                
+
                 <!-- Mobile Menu Button -->
                 <button id="mobile-menu-btn" class="md:hidden text-gray-700">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
             </div>
-            
+
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden md:hidden pb-4">
                 <div class="flex flex-col gap-3">
@@ -118,11 +121,9 @@
                         <div class="relative">
                             <!-- Main Photo -->
                             <div class="relative aspect-[3/4] max-w-md mx-auto lg:mx-0  overflow-hidden sh">
-                                <img src="/images/doctor-fermin.jpg?height=800&width=600" 
-                                     alt="Dr. Fermín Silva" 
-                                     class="w-full h-full object-cover">
+                                <img src="/images/fermin2.jpg?height=800&width=600" alt="Dr. Fermín Silva" class="w-full h-full object-cover">
                             </div>
-                            
+
                             <!-- Redes sociales -->
                             <div class="absolute -bottom-8 left-1/2 -translate-x-1/2 flex gap-4 bg-white rounded-full px-10 py-6 shadow-2xl border-2 border-gray-100">
                                 <a href="https://www.instagram.com/dr.ferminsilva/" class="w-20 h-20 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center hover:scale-110 transition-all shadow-lg" aria-label="Instagram">
@@ -146,7 +147,7 @@
                         </div>
 
                         <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-primary">
-                        Fermin Silva
+                            Fermin Silva
                         </h1>
 
                         <p class="text-2xl md:text-3xl text-secondary font-semibold mb-4">
@@ -175,7 +176,7 @@
                         <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8">
                             <a href="https://laluzeduca.clinicalaluz.com.pe/" class="bg-primary text-white px-8 py-4 rounded-lg hover:bg-secondary transition-all hover:scale-105 min-w-[220px] text-center font-semibold shadow-lg">
                                 <i class="fas fa-chalkboard-teacher mr-2"></i>
-                                Oferta Académica 
+                                Oferta Académica
                             </a>
                             <a href="#sobre-mi" class="border-2 border-primary text-primary px-8 py-4 rounded-lg hover:bg-primary hover:text-white transition-all hover:scale-105 min-w-[220px] text-center font-semibold">
                                 <i class="fas fa-user-md mr-2"></i>
@@ -229,7 +230,7 @@
                                         Dedicación
                                     </h3>
                                     <p class="text-gray-600 text-center leading-relaxed">
-                                        Más de 25    años de trayectoria dedicados a la innovación quirúrgica y al avance de la oftalmología.
+                                        Más de 25 años de trayectoria dedicados a la innovación quirúrgica y al avance de la oftalmología.
                                     </p>
                                 </div>
                             </div>
@@ -255,7 +256,7 @@
                 <p class="text-xl text-gray-600 mb-12">
                     Mantente actualizado con las últimas novedades, conferencias y contenido educativo
                 </p>
-                
+
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <a href="https://www.instagram.com/dr.ferminsilva/" class="group flex flex-col items-center gap-6 p-8 bg-gradient-to-br from-pink-50 to-purple-50 rounded-3xl hover:shadow-2xl transition-all hover:scale-105 border-2 border-transparent hover:border-pink-200">
                         <div class="w-28 h-28 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
@@ -266,7 +267,7 @@
                             <p class="text-base text-gray-600">@drferminsilva</p>
                         </div>
                     </a>
-                    
+
                     <a href="https://www.youtube.com/@ferminsilvaperu" class="group flex flex-col items-center gap-6 p-8 bg-gradient-to-br from-red-50 to-red-100 rounded-3xl hover:shadow-2xl transition-all hover:scale-105 border-2 border-transparent hover:border-red-200">
                         <div class="w-28 h-28 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
                             <i class="fab fa-youtube text-white text-5xl"></i>
@@ -276,7 +277,7 @@
                             <p class="text-base text-gray-600">Dr. Fermín Silva</p>
                         </div>
                     </a>
-                    
+
                     <a href="https://www.tiktok.com/@drferminsilva/" class="group flex flex-col items-center gap-6 p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl hover:shadow-2xl transition-all hover:scale-105 border-2 border-transparent hover:border-gray-300">
                         <div class="w-28 h-28 bg-gradient-to-br from-black to-gray-800 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
                             <i class="fab fa-tiktok text-white text-5xl"></i>
@@ -303,9 +304,7 @@
                 <div class="grid lg:grid-cols-2 gap-12 items-start mb-16">
                     <div class="relative">
                         <div class="aspect-[4/5] bg-gradient-to-br from-primary to-secondary rounded-2xl overflow-hidden shadow-2xl">
-                            <img src="/images/operando1.jpg?height=600&width=480" 
-                                 alt="Dr. Fermín Silva" 
-                                 class="w-full h-full object-cover">
+                            <img src="/images/operando1.jpg?height=600&width=480" alt="Dr. Fermín Silva" class="w-full h-full object-cover">
                         </div>
                         <div class="absolute -bottom-6 -right-6 bg-accent text-white rounded-2xl p-6 shadow-xl">
                             <div class="text-center">
@@ -360,11 +359,12 @@
                                 <div>
                                     <h3 class="font-bold text-xl mb-2">Compromiso con la Responsabilidad Social</h3>
                                     <p class="text-white/90 leading-relaxed">
-                                        Clínica La Luz fue creada con el propósito de mejorar la calidad de vida de las personas: Para nuestros pacientes entregando un servicio de calidad y para nuestros colaboradores acompañado en su desarrollo personal y Hemos creado el Premio La Luz para reconocer,  valorar y premiar la dedicación y desarrollo de alta competitividad de las personas en las diferentes áreas
+                                        Clínica La Luz fue creada con el propósito de mejorar la calidad de vida de las personas: Para nuestros pacientes entregando un servicio de calidad y para nuestros colaboradores acompañado en su desarrollo personal y Hemos creado el Premio La Luz para reconocer, valorar y premiar la dedicación y desarrollo de alta competitividad de las personas en las diferentes áreas
+
 
 
                                     </p>
-                                  
+
 
 
                                     <div class="mt-4">
@@ -394,7 +394,7 @@
                             <div class="bg-gradient-to-br from-secondary to-primary w-16 h-16 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                                 <i class="fas fa-graduation-cap text-2xl text-white"></i>
                             </div>
-                            <h4 class="font-bold text-lg text-primary mb-2">4 Programas de Fellowship</h4>
+                            <h4 class="font-bold text-lg text-primary mb-2">4 Programas de Fellowship acreditado por la UCV</h4>
                             <p class="text-gray-600 text-sm leading-relaxed">
                                 Segmento Anterior, Córnea y Cirugía Refractiva • Glaucoma • Retina y Vítreo
                             </p>
@@ -416,61 +416,223 @@
                             </div>
                             <h4 class="font-bold text-lg text-primary mb-2">Luz para tus Ojos</h4>
                             <p class="text-gray-600 text-sm leading-relaxed">
-                                Atención gratuita para personas mayores de 50 años con disminución de agudeza visual
+                                Atención gratuita para personas mayores de 50 años con disminución de agudeza visual. Todos los miércoles en nuestras 8 sedes en las consultas
                             </p>
                         </div>
                     </div>
                 </div>
 
+
                 <div class="bg-gradient-to-br from-primary via-secondary to-accent rounded-2xl p-8 md:p-12 shadow-2xl text-white">
                     <div class="text-center mb-10">
-                        <h3 class="text-3xl md:text-4xl font-bold mb-4">Descentralización de Servicios de Alta Especialización</h3>
+                        <h3 class="text-3xl md:text-4xl font-bold mb-4">
+                            Descentralización de Servicios de Alta Especialización
+                        </h3>
                     </div>
 
+                    <!-- Grid principal de sedes activas -->
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all">
-                            <div class="flex items-center gap-3 mb-3">
-                                <i class="fas fa-map-marker-alt text-2xl text-accent"></i>
-                                <h4 class="font-bold text-xl">Chiclayo</h4>
-                            </div>
+                        <!-- Lima -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all text-center">
+                            <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/05/01-SEDE-CENTRAL.jpg" alt="Sede Lima" class="w-full h-40 object-cover rounded-lg mb-4 border border-white/30">
+                            <h4 class="font-bold text-xl mb-2">Lima</h4>
+                            <p class="text-white/80 text-sm">Centro de alta especialización en Lima</p>
+                        </div>
+
+                        <!-- SJL -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all text-center">
+                            <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/05/05-SEDE-SJL.jpg" alt="Sede San Juan de Lurigancho" class="w-full h-40 object-cover rounded-lg mb-4 border border-white/30">
+                            <h4 class="font-bold text-xl mb-2">San Juan de Lurigancho - Lima</h4>
+                            <p class="text-white/80 text-sm">Centro de alta especialización en San Juan de Lurigancho</p>
+                        </div>
+
+                        <!-- Breña -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all text-center">
+                            <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/05/02-SEDE-BRENA.jpg" alt="Sede Breña" class="w-full h-40 object-cover rounded-lg mb-4 border border-white/30">
+                            <h4 class="font-bold text-xl mb-2">Breña - Lima</h4>
+                            <p class="text-white/80 text-sm">Centro de alta especialización en Breña</p>
+                        </div>
+
+                        <!-- SMP -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all text-center">
+                            <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/05/03-SEDE-SMP.jpg" alt="Sede San Martín de Porres" class="w-full h-40 object-cover rounded-lg mb-4 border border-white/30">
+                            <h4 class="font-bold text-xl mb-2">San Martín de Porres - Lima</h4>
+                            <p class="text-white/80 text-sm">Centro de alta especialización en San Martín de Porres</p>
+                        </div>
+
+                        <!-- Comas -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all text-center">
+                            <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/05/04-SEDE-COMAS.jpg" alt="Sede Comas" class="w-full h-40 object-cover rounded-lg mb-4 border border-white/30">
+                            <h4 class="font-bold text-xl mb-2">Comas - Lima</h4>
+                            <p class="text-white/80 text-sm">Centro de alta especialización en Comas</p>
+                        </div>
+
+                        <!-- Chiclayo -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all text-center">
+                            <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/05/06-SEDE-CHICLAYO.jpg" alt="Sede Chiclayo" class="w-full h-40 object-cover rounded-lg mb-4 border border-white/30">
+                            <h4 class="font-bold text-xl mb-2">Chiclayo</h4>
                             <p class="text-white/80 text-sm">Centro de alta especialización en el norte del Perú</p>
                         </div>
 
-                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all">
-                            <div class="flex items-center gap-3 mb-3">
-                                <i class="fas fa-map-marker-alt text-2xl text-accent"></i>
-                                <h4 class="font-bold text-xl">Tacna</h4>
-                            </div>
+                        <!-- Tacna -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all text-center">
+                            <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/05/07-SEDE-TACNA.jpg') }}" alt="Sede Tacna" class="w-full h-40 object-cover rounded-lg mb-4 border border-white/30">
+                            <h4 class="font-bold text-xl mb-2">Tacna</h4>
                             <p class="text-white/80 text-sm">Servicios especializados en el sur del país</p>
                         </div>
 
-                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all">
-                            <div class="flex items-center gap-3 mb-3">
-                                <i class="fas fa-map-marker-alt text-2xl text-accent"></i>
-                                <h4 class="font-bold text-xl">Jaén</h4>
-                            </div>
+                        <!-- Jaén -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all text-center">
+                            <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/05/08-SEDE-JAEN.jpg" alt="Sede Jaén" class="w-full h-40 object-cover rounded-lg mb-4 border border-white/30">
+                            <h4 class="font-bold text-xl mb-2">Jaén</h4>
                             <p class="text-white/80 text-sm">Atención oftalmológica de excelencia en la selva</p>
                         </div>
+                    </div>
 
-                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all relative overflow-hidden">
+                    <!-- Sede próxima: Cajamarca -->
+                    <div class="mt-10 flex justify-center">
+                        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 text-center relative overflow-hidden max-w-sm hover:bg-white/20 transition-all">
                             <div class="absolute top-2 right-2 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">
                                 Próximamente
                             </div>
-                            <div class="flex items-center gap-3 mb-3">
-                                <i class="fas fa-map-marker-alt text-2xl text-accent"></i>
-                                <h4 class="font-bold text-xl">Cajamarca</h4>
-                            </div>
+                            <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/10/cajamarca-1.jpg" alt="Sede Cajamarca" class="w-full h-48 object-cover rounded-lg mb-4 border border-white/30 opacity-80">
+                            <h4 class="font-bold text-2xl mb-2">Cajamarca</h4>
                             <p class="text-white/80 text-sm">Inauguración en diciembre 2025</p>
                         </div>
                     </div>
 
-                    <div class="mt-8 text-center">
+                    <!-- Contador de sedes -->
+                    <div class="mt-10 text-center">
                         <div class="inline-block bg-white/20 backdrop-blur-sm rounded-full px-8 py-4 border border-white/30">
-                            <span class="text-4xl font-bold">8 Sedes</span>
+                            <span class="text-4xl font-bold">9 Sedes</span>
                             <span class="text-white/80 ml-2">en todo el Perú</span>
                         </div>
                     </div>
                 </div>
+
+                <!-- SECCIÓN: CENTROS QUIRÚRGICOS -->
+                <section id="centros-quirurgicos" class="py-20 bg-neutral text-secondary">
+                    <div class="container mx-auto px-4 md:px-10">
+                        <!-- Título principal -->
+                        <div class="text-center mb-12">
+                            <span class="text-primary font-bold text-sm uppercase tracking-wider">Infraestructura</span>
+                            <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Centros Quirúrgicos</h2>
+                            <div class="w-20 h-1 bg-primary mx-auto"></div>
+                        </div>
+
+                        <!-- Galería -->
+                        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <!-- SEDE CENTRAL - Sala 1 -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/06/DSC_0037-scaled.jpg" alt="Sede Central - Sala 1" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Central – Sala 1</h3>
+                                    <p class="text-sm text-gray-500">Cirugía de catarata</p>
+                                </div>
+                            </div>
+
+                            <!-- SEDE CENTRAL - Sala 2 -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/06/F3.jpg" alt="Sede Central - Sala 2" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Central – Sala 2</h3>
+                                    <p class="text-sm text-gray-500">Cirugía refractiva</p>
+                                </div>
+                            </div>
+
+                            <!-- SEDE CENTRAL - Sala 3 -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/10/Imagen-de-WhatsApp-2025-10-21-a-las-00.08.28_3977d2f5.jpg" alt="Sede Central - Sala 3" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Central – Sala 3</h3>
+                                    <p class="text-sm text-gray-500">Cirugía de córnea y trasplantes</p>
+                                </div>
+                            </div>
+
+                            <!-- SEDE CENTRAL - Sala 4 -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/06/DSC_0217-scaled.jpg" alt="Sede Central - Sala 4" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Central – Sala 4</h3>
+                                    <p class="text-sm text-gray-500">Sala multifuncional (retina, glaucoma, etc.)</p>
+                                </div>
+                            </div>
+
+                            <!-- BREÑA -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/10/brena.jpg" alt="Centro Quirúrgico Breña" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Breña - Sala 5</h3>
+                                    <p class="text-sm text-gray-500">Salas de cirugía oftalmológica</p>
+                                </div>
+                            </div>
+
+                            <!-- SAN JUAN DE LURIGANCHO -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/10/san-juan-.jpg" alt="Centro Quirúrgico San Juan de Lurigancho" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede San Juan de Lurigancho - Sala 6</h3>
+                                    <p class="text-sm text-gray-500">Salas de catarata y refractiva</p>
+                                </div>
+                            </div>
+
+                            <!-- JAÉN -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/06/F6.jpg" alt="Centro Quirúrgico Jaén" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Jaén - Sala 7</h3>
+                                    <p class="text-sm text-gray-500">Salas de catarata y refractiva</p>
+                                </div>
+                            </div>
+
+                            <!-- CHICLAYO -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/10/chiclayo.jpg" alt="Centro Quirúrgico Chiclayo" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Chiclayo - Sala 8</h3>
+                                    <p class="text-sm text-gray-500">Salas de cirugía oftalmológica</p>
+                                </div>
+                            </div>
+                             <!-- CHICLAYO -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/10/chiclayo-2.jpg" alt="Centro Quirúrgico Chiclayo" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Chiclayo - Sala 9</h3>
+                                    <p class="text-sm text-gray-500">Salas de cirugía oftalmológica</p>
+                                </div>
+                            </div>
+
+                            <!-- TACNA -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/10/tacna.jpg" alt="Centro Quirúrgico Tacna" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Tacna - Sala de Cirugía Refractiva - sala 10</h3>
+                                    <p class="text-sm text-gray-500">Sala de oftalmo, catarata y refractiva</p>
+                                </div>
+                            </div>
+                            
+                            <!-- CHICLAYO -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/10/TACNA-2.jpg" alt="Centro Quirúrgico Chiclayo" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Tacna - Sala de Catarata - sala 11</h3>
+                                    <p class="text-sm text-gray-500">Salas de cirugía oftalmológica</p>
+                                </div>
+                            </div>
+                              <!-- cajamarca  -->
+                            <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
+                                <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/10/sala-1.jpg" alt="Centro Quirúrgico Chiclayo" class="w-full h-56 object-cover">
+                                <div class="p-5 text-center">
+                                    <h3 class="text-xl font-bold text-secondary mb-1">Sede Cajamarca - Sala de Catarata - sala 12</h3>
+                                    <p class="text-sm text-gray-500">Salas de cirugía oftalmológica</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
             </div>
         </div>
     </section>
@@ -583,6 +745,153 @@
             </div>
         </div>
     </section>
+    <!-- SECCIÓN: CIRUGÍA A PERSONALIDADES DEL PERÚ -->
+    <section id="personalidades" class="py-20 bg-white text-secondary">
+        <div class="container mx-auto px-4 md:px-10">
+            <!-- Encabezado -->
+            <div class="text-center mb-12">
+                <span class="text-primary font-bold text-sm uppercase tracking-wider">Reconocimiento Nacional</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Cirugía a Personalidades del Perú</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
+                    Diversas figuras del arte, la política, el deporte y la televisión confiaron en la experiencia de nuestros especialistas para recuperar su visión con tecnología de vanguardia.
+                </p>
+            </div>
+
+            <!-- Galería -->
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <!-- Ejemplo 1 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/fujimori.jpg') }}" alt="Gisela Valcárcel" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Alberto Fijimori</h3>
+                        <p class="text-sm text-gray-600">Ex presidente del Perú</p>
+                    </div>
+                </div>
+
+                <!-- Ejemplo 2 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/vistor-paredes.jpg') }}" alt="Aldo Miyashiro" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Victor Paredes</h3>
+                        <p class="text-sm text-gray-600">Ex Ministro de Salud</p>
+                    </div>
+                </div>
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/miguel-hidalgo.jpg') }}" alt="Carlos Rivas Dávila" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Gral. Miguel Hidalgo</h3>
+                        <p class="text-sm text-gray-600">Ex Ministro del Interior</p>
+                    </div>
+                </div>
+
+                <!-- Ejemplo 3 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/carlos-rios.jpg') }}" alt="Carlos Rivas Dávila" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Carlos Rivas Dávila</h3>
+                        <p class="text-sm text-gray-600">Ex Ministro de Economía</p>
+                    </div>
+                </div>
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/tomas-galvez.jpg') }}" alt="Carlos Rivas Dávila" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Dr. Tomás Gálvez</h3>
+                        <p class="text-sm text-gray-600">Ex Fiscal Supremo</p>
+                    </div>
+                </div>
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/luis-arce.jpg') }}" alt="Carlos Rivas Dávila" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Dr. Luis Arce Córdoba</h3>
+                        <p class="text-sm text-gray-600">Ex Fiscal Supremo</p>
+                    </div>
+                </div>
+
+
+                <!-- Ejemplo 3 -->
+
+
+                <!-- Ejemplo 4 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/isaac humal .jpg') }}" alt="Carlos Galdós" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary"> Issac Humala </h3>
+                        <p class="text-sm text-gray-600">Padre del Ex Presidente Ollanta Humala</p>
+                    </div>
+                </div>
+
+                <!-- Ejemplo 5 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/hugo-sotil.jpg') }}" alt="Maritere Braschi" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Hugo "Cholo" Sotil</h3>
+                        <p class="text-sm text-gray-600">Ex futbolista</p>
+                    </div>
+                </div>
+
+                <!-- Ejemplo 6 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/pablo-villanueva.jpg') }}" alt="Maritere Braschi" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Pablo Villanueva</h3>
+                        <p class="text-sm text-gray-600">Actor Cómico</p>
+                    </div>
+                </div>
+
+
+                <!-- Ejemplo 6 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/giuliana-ceballos.jpg') }}" alt="Julio Garay" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Giuliana Zevallos <h3>
+                                <p class="text-sm text-gray-600">Miss Perú Mundo 2012</p>
+                    </div>
+                </div>
+
+                <!-- Ejemplo 7 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/carlos-oneto.jpg') }}" alt="Mónica Delta" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Carlos Oneto "Pantuflas"</h3>
+                        <p class="text-sm text-gray-600">Actor Cómico</p>
+                    </div>
+                </div>
+
+                <!-- Ejemplo 8 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/esmeralda-checa.jpg') }}" alt="Roberto Martínez" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Esmaralda Checa </h3>
+                        <p class="text-sm text-gray-600">Actriz cómica</p>
+                    </div>
+                </div>
+                <!-- Ejemplo 9 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/rodolfo-felpudini.jpg') }}" alt="Roberto Martínez" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Rodolfo Carrión Felpudini </h3>
+                        <p class="text-sm text-gray-600">Actor Cómico</p>
+                    </div>
+                </div>
+                <!-- Ejemplo 10 -->
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/Alfredo-gonzales.jpg') }}" alt="Roberto Martínez" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Alfredo González </h3>
+                        <p class="text-sm text-gray-600">Ex Presidente de U </p>
+                    </div>
+                </div>
+                <div class="bg-neutral rounded-xl shadow-soft overflow-hidden hover:shadow-lg transition-all">
+                    <img src="{{ asset('images/famosos/gino-pesaressi.jpg') }}" alt="Roberto Martínez" class="w-full h-64 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-lg text-secondary">Gino Pesaressi </h3>
+                        <p class="text-sm text-gray-600">Actor </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Sección de Formación Empresarial -->
     <section id="estudios-gerenciales" class="py-24 bg-gradient-to-b from-gray-50 to-white">
@@ -595,7 +904,24 @@
                         Capacitación continua en gestión empresarial y liderazgo estratégico
                     </p>
                 </div>
+                <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-secondary overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-secondary/10 to-transparent rounded-bl-full"></div>
+                    <div class="relative z-10">
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="bg-gradient-to-br from-secondary to-primary w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                                <i class="fas fa-project-diagram text-2xl text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-primary mb-1">Centrum PUCP</h3>
 
+                                <p class="text-gray-600 text-sm">IE Madrid, España</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 leading-relaxed">
+                            Programa avanzado en gestión de proyectos y dirección estratégica de programas empresariales.
+                        </p>
+                    </div>
+                </div>
                 <div class="grid md:grid-cols-2 gap-8">
                     <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-accent overflow-hidden">
                         <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-accent/10 to-transparent rounded-bl-full"></div>
@@ -635,24 +961,7 @@
                         </div>
                     </div>
 
-                    <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-secondary overflow-hidden">
-                        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-secondary/10 to-transparent rounded-bl-full"></div>
-                        <div class="relative z-10">
-                            <div class="flex items-start gap-4 mb-4">
-                                <div class="bg-gradient-to-br from-secondary to-primary w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                                    <i class="fas fa-project-diagram text-2xl text-white"></i>
-                                </div>
-                                <div>
-                                    <h3 class="text-2xl font-bold text-primary mb-1">Program Management Senior</h3>
-                                    <p class="text-secondary font-semibold text-lg">Centrum PUCP</p>
-                                    <p class="text-gray-600 text-sm">Madrid, España</p>
-                                </div>
-                            </div>
-                            <p class="text-gray-600 leading-relaxed">
-                                Programa avanzado en gestión de proyectos y dirección estratégica de programas empresariales.
-                            </p>
-                        </div>
-                    </div>
+
 
                     <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-accent overflow-hidden">
                         <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-accent/10 to-transparent rounded-bl-full"></div>
@@ -712,167 +1021,133 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- NUEVA SECCIÓN: Videos de Cirugías -->
-    <section id="videos" class="py-24 bg-white">
-        <div class="container mx-auto px-4 lg:px-8">
-            <div class="max-w-7xl mx-auto">
-                <div class="text-center mb-16">
-                    <h2 class="text-4xl md:text-5xl font-bold text-primary mb-4">Cirugías y Experiencias</h2>
-                    <div class="w-24 h-1 bg-accent mx-auto mb-6"></div>
-                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Demonstraciones de procedimientos quirúrgicos y técnicas avanzadas en oftalmología
-                    </p>
-                </div>
 
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Video Card 1 -->
-                    <div class="video-card group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-                        <div class="relative aspect-video bg-gray-200">
-                            <img src="/images/video-thumbnail-1.jpg?height=300&width=400" 
-                                 alt="Cirugía de Cataratas" 
-                                 class="w-full h-full object-cover">
-                            <div class="video-overlay absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <div class="play-button bg-white/90 rounded-full p-6 transform transition-transform duration-300">
-                                    <i class="fas fa-play text-primary text-3xl ml-1"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <div class="flex items-center gap-2 mb-3">
-                                <span class="bg-accent/10 text-accent text-xs font-semibold px-3 py-1 rounded-full">Facoemulsificación</span>
-                                <span class="text-gray-500 text-sm">12:45</span>
-                            </div>
-                            <h3 class="text-xl font-bold text-primary mb-2">Cirugía de Cataratas - Técnica Avanzada</h3>
-                            <p class="text-gray-600 text-sm">Procedimiento completo de facoemulsificación con implante de lente intraocular premium.</p>
-                        </div>
-                    </div>
-
-                    <!-- Video Card 2 -->
-                    <div class="video-card group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-                        <div class="relative aspect-video bg-gray-200">
-                            <img src="/images/video-thumbnail-2.jpg?height=300&width=400" 
-                                 alt="Trasplante de Córnea" 
-                                 class="w-full h-full object-cover">
-                            <div class="video-overlay absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <div class="play-button bg-white/90 rounded-full p-6 transform transition-transform duration-300">
-                                    <i class="fas fa-play text-primary text-3xl ml-1"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <div class="flex items-center gap-2 mb-3">
-                                <span class="bg-secondary/10 text-secondary text-xs font-semibold px-3 py-1 rounded-full">Córnea</span>
-                                <span class="text-gray-500 text-sm">18:30</span>
-                            </div>
-                            <h3 class="text-xl font-bold text-primary mb-2">Trasplante de Córnea DMEK</h3>
-                            <p class="text-gray-600 text-sm">Técnica lamelar posterior para restaurar la transparencia corneal con mínima invasión.</p>
-                        </div>
-                    </div>
-
-                    <!-- Video Card 3 -->
-                    <div class="video-card group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-                        <div class="relative aspect-video bg-gray-200">
-                            <img src="/images/video-thumbnail-3.jpg?height=300&width=400" 
-                                 alt="Cirugía Refractiva" 
-                                 class="w-full h-full object-cover">
-                            <div class="video-overlay absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <div class="play-button bg-white/90 rounded-full p-6 transform transition-transform duration-300">
-                                    <i class="fas fa-play text-primary text-3xl ml-1"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <div class="flex items-center gap-2 mb-3">
-                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Refractiva</span>
-                                <span class="text-gray-500 text-sm">08:15</span>
-                            </div>
-                            <h3 class="text-xl font-bold text-primary mb-2">LASIK - Corrección Visual</h3>
-                            <p class="text-gray-600 text-sm">Procedimiento de cirugía refractiva láser para corrección de miopía y astigmatismo.</p>
-                        </div>
-                    </div>
-
-                    <!-- Video Card 4 -->
-                    <div class="video-card group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-                        <div class="relative aspect-video bg-gray-200">
-                            <img src="/images/video-thumbnail-4.jpg?height=300&width=400" 
-                                 alt="Cross-linking Corneal" 
-                                 class="w-full h-full object-cover">
-                            <div class="video-overlay absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <div class="play-button bg-white/90 rounded-full p-6 transform transition-transform duration-300">
-                                    <i class="fas fa-play text-primary text-3xl ml-1"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <div class="flex items-center gap-2 mb-3">
-                                <span class="bg-accent/10 text-accent text-xs font-semibold px-3 py-1 rounded-full">Queratocono</span>
-                                <span class="text-gray-500 text-sm">15:20</span>
-                            </div>
-                            <h3 class="text-xl font-bold text-primary mb-2">Cross-linking Corneal</h3>
-                            <p class="text-gray-600 text-sm">Tratamiento para detener la progresión del queratocono mediante riboflavina y UV.</p>
-                        </div>
-                    </div>
-
-                    <!-- Video Card 5 -->
-                    <div class="video-card group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-                        <div class="relative aspect-video bg-gray-200">
-                            <img src="/images/video-thumbnail-5.jpg?height=300&width=400" 
-                                 alt="Implante de ICL" 
-                                 class="w-full h-full object-cover">
-                            <div class="video-overlay absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <div class="play-button bg-white/90 rounded-full p-6 transform transition-transform duration-300">
-                                    <i class="fas fa-play text-primary text-3xl ml-1"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <div class="flex items-center gap-2 mb-3">
-                                <span class="bg-secondary/10 text-secondary text-xs font-semibold px-3 py-1 rounded-full">Lente Fáquico</span>
-                                <span class="text-gray-500 text-sm">10:45</span>
-                            </div>
-                            <h3 class="text-xl font-bold text-primary mb-2">Implante de Lente ICL</h3>
-                            <p class="text-gray-600 text-sm">Corrección de alta miopía mediante lente intraocular fáquica posterior.</p>
-                        </div>
-                    </div>
-
-                    <!-- Video Card 6 -->
-                    <div class="video-card group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-                        <div class="relative aspect-video bg-gray-200">
-                            <img src="/images/video-thumbnail-6.jpg?height=300&width=400" 
-                                 alt="Conferencia Técnicas" 
-                                 class="w-full h-full object-cover">
-                            <div class="video-overlay absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <div class="play-button bg-white/90 rounded-full p-6 transform transition-transform duration-300">
-                                    <i class="fas fa-play text-primary text-3xl ml-1"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <div class="flex items-center gap-2 mb-3">
-                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Conferencia</span>
-                                <span class="text-gray-500 text-sm">45:00</span>
-                            </div>
-                            <h3 class="text-xl font-bold text-primary mb-2">Avances en Cirugía de Segmento Anterior</h3>
-                            <p class="text-gray-600 text-sm">Conferencia magistral sobre las últimas innovaciones en técnicas quirúrgicas.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-center mt-12">
-                    <a href="https://www.youtube.com/@ferminsilvaperu" 
-                       target="_blank"
-                       class="inline-flex items-center gap-3 bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-lg hover:shadow-xl transition-all hover:scale-105 font-semibold text-lg">
-                        <i class="fab fa-youtube text-2xl"></i>
-                        Ver Más en YouTube
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
+             <!-- 🧩 NUEVA FILA: MBA Universidad del Pacífico (Fermín Silva) -->
+            <div class="mt-16 text-center">
+                <h3 class="text-2xl font-bold text-secondary mb-4">
+                MBA – Universidad del Pacífico
+                </h3>
+               
+                <div class="max-w-4xl mx-auto">
+                <img src="{{ asset('images/fermin-mba.png') }}"
+                    alt="Dr. Fermín Silva - MBA Universidad del Pacífico"
+                    class="rounded-2xl shadow-lg w-full object-cover hover:scale-[1.02] transition-transform duration-500">
                 </div>
             </div>
         </div>
     </section>
+<!-- SECCIÓN: SOCIEDADES ACADÉMICAS Y CIENTÍFICAS -->
+<section id="sociedades-academicas" class="py-20 bg-neutral text-secondary">
+  <div class="container mx-auto px-4 md:px-10">
+    <!-- Encabezado -->
+    <div class="text-center mb-12">
+      <span class="text-primary font-bold text-sm uppercase tracking-wider">Vínculos Académicos</span>
+      <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Miembro de Sociedades Académicas y Científicas</h2>
+      <div class="w-20 h-1 bg-primary mx-auto"></div>
+    </div>
+
+    <!-- Contenido -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Sociedad Peruana de Oftalmología -->
+      <div class="bg-white rounded-xl shadow-soft p-6 border border-gray-100 hover:shadow-lg transition-all">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white text-lg">
+            <i class="fas fa-eye"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-secondary">Sociedad Peruana de Oftalmología</h3>
+            <p class="text-sm text-gray-600">Miembro titular</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sociedad Americana de Oftalmología -->
+      <div class="bg-white rounded-xl shadow-soft p-6 border border-gray-100 hover:shadow-lg transition-all">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white text-lg">
+            <i class="fas fa-globe-americas"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-secondary">Sociedad Americana de Oftalmología</h3>
+            <p class="text-sm text-gray-600">Miembro titular</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sociedad Europea de Cirujanos de Catarata, Córnea y Cirugía Refractiva -->
+      <div class="bg-white rounded-xl shadow-soft p-6 border border-gray-100 hover:shadow-lg transition-all">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white text-lg">
+            <i class="fas fa-microscope"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-secondary">
+              Sociedad Europea de Cirujanos de Catarata, Córnea y Cirugía Refractiva
+            </h3>
+            <p class="text-sm text-gray-600">Miembro titular</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sociedad Panamericana de Oftalmología -->
+      <div class="bg-white rounded-xl shadow-soft p-6 border border-gray-100 hover:shadow-lg transition-all">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white text-lg">
+            <i class="fas fa-flag"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-secondary">Sociedad Panamericana de Oftalmología</h3>
+            <p class="text-sm text-gray-600">Miembro titular</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sociedad Latinoamericana de Cirujanos de Catarata, Córnea y Refractiva -->
+      <div class="bg-white rounded-xl shadow-soft p-6 border border-gray-100 hover:shadow-lg transition-all">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white text-lg">
+            <i class="fas fa-users"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-secondary">
+              Sociedad Latinoamericana de Cirujanos de Catarata, Córnea y Cirugía Refractiva (ALACCSA)
+            </h3>
+            <p class="text-sm text-gray-600">Miembro titular</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Patronato UNFV -->
+      <div class="bg-white rounded-xl shadow-soft p-6 border border-gray-100 hover:shadow-lg transition-all">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white text-lg">
+            <i class="fas fa-university"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-secondary">Patronato de la Universidad Nacional Federico Villarreal</h3>
+            <p class="text-sm text-gray-600">Miembro del Patronato</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Colegio de Profesores del Perú -->
+      <div class="bg-white rounded-xl shadow-soft p-6 border border-gray-100 hover:shadow-lg transition-all">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white text-lg">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-secondary">Colegio de Profesores del Perú</h3>
+            <p class="text-sm text-gray-600">Miembro honorario</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
 
     <!-- NUEVA SECCIÓN: Testimonios de Pacientes -->
     <section id="testimonios" class="py-24 bg-gradient-to-b from-gray-50 to-white">
@@ -1057,22 +1332,7 @@
                 </div>
 
                 <!-- Estadísticas de Satisfacción -->
-                <div class="mt-16 bg-gradient-to-br from-primary to-secondary rounded-2xl p-8 md:p-12 text-white">
-                    <div class="grid md:grid-cols-3 gap-8 text-center">
-                        <div>
-                            <div class="text-5xl font-bold mb-2">98%</div>
-                            <div class="text-white/90 text-lg">Satisfacción de Pacientes</div>
-                        </div>
-                        <div>
-                            <div class="text-5xl font-bold mb-2">25,000+</div>
-                            <div class="text-white/90 text-lg">Cirugías Exitosas</div>
-                        </div>
-                        <div>
-                            <div class="text-5xl font-bold mb-2">4.9/5</div>
-                            <div class="text-white/90 text-lg">Calificación Promedio</div>
-                        </div>
-                    </div>
-                </div>
+                <div class="mt-16 text
             </div>
         </div>
     </section>
@@ -1094,8 +1354,9 @@
                                 <i class="fas fa-envelope text-2xl"></i>
                             </div>
                             <div>
-                                <h3 class="font-bold text-lg text-primary mb-2">Email</h3>
-                                <p class="text-gray-600">fermin.silva@clinicalaluz.com.pe</p>
+                                <h3 class="font-bold text-lg text-primary mb-2">Magda Arcaya – Contacto:</h3>
+                                <p class="text-gray-600"> +51 999943047 / jefaturadeposgrado@clinicalaluz.com.pe </p>
+                               
                             </div>
                         </div>
                     </div>
@@ -1116,8 +1377,7 @@
                 <div class="bg-gradient-to-br from-primary to-secondary rounded-2xl p-8 text-white">
                     <h3 class="text-2xl font-bold mb-4">¿Interesado en nuestros programas de Fellowship?</h3>
                     <p class="mb-6">Visita La Luz Educa para conocer más sobre nuestras oportunidades de formación</p>
-                    <a href="https://laluzeduca.clinicalaluz.com.pe/" 
-                       class="inline-block bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    <a href="https://laluzeduca.clinicalaluz.com.pe/" class="inline-block bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                         Explorar Programas Académicos
                     </a>
                 </div>
@@ -1136,7 +1396,7 @@
                             Compromiso con la excelencia en oftalmología y educación médica.
                         </p>
                     </div>
-                    
+
                     <div>
                         <h3 class="font-bold text-xl mb-4">Enlaces Rápidos</h3>
                         <ul class="space-y-2">
@@ -1146,7 +1406,7 @@
                             <li><a href="#testimonios" class="text-white/80 hover:text-white transition-colors">Testimonios</a></li>
                         </ul>
                     </div>
-                    
+
                     <div>
                         <h3 class="font-bold text-xl mb-4">Sígueme</h3>
                         <div class="flex gap-4">
@@ -1162,7 +1422,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="border-t border-white/20 pt-8 text-center text-white/60">
                     <p>&copy; 2025 Dr. Fermín Silva. Todos los derechos reservados.</p>
                 </div>
@@ -1183,6 +1443,7 @@
                 document.getElementById('mobile-menu').classList.add('hidden');
             });
         });
+
     </script>
 </body>
 </html>
