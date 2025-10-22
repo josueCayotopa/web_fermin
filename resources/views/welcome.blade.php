@@ -611,7 +611,7 @@
                                 </div>
                             </div>
                             
-                            <!-- CHICLAYO -->
+                            <!-- TACNA -->
                             <div class="bg-white rounded-xl shadow-soft overflow-hidden hover:shadow-xl transition-all">
                                 <img src="https://fernandop142.sg-host.com/wp-content/uploads/2025/10/TACNA-2.jpg" alt="Centro Quirúrgico Chiclayo" class="w-full h-56 object-cover">
                                 <div class="p-5 text-center">
@@ -1355,7 +1355,7 @@
                             </div>
                             <div>
                                 <h3 class="font-bold text-lg text-primary mb-2">Magda Arcaya – Contacto:</h3>
-                                <p class="text-gray-600"> +51 999943047 / jefaturadeposgrado@clinicalaluz.com.pe </p>
+                                <p class="text-gray-600"> +51999943047  / jefaturadeposgrado@clinicalaluz.com.pe </p>
                                
                             </div>
                         </div>
