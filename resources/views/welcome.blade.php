@@ -170,6 +170,12 @@
                                     <span class="font-semibold">Subespecialista</span> en Segmento Anterior, Córnea y Cirugía Refractiva
                                 </p>
                             </div>
+                            <div class="flex items-start gap-3 justify-center lg:justify-start">
+                                <i class="fas fa-graduation-cap text-accent text-xl mt-1 flex-shrink-0"></i>
+                                <p class="text-lg leading-relaxed">
+                                    <span class="font-semibold">Subespecialista</span> en Córnea y Cirugía Refractiva
+                                </p>
+                            </div>
                             
                             <div class="flex items-start gap-3 justify-center lg:justify-start">
                                 <i class="fas fa-chalkboard-teacher text-accent text-xl mt-1 flex-shrink-0"></i>
