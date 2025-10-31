@@ -104,7 +104,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+<!-- Hero Section Mejorado -->
     <section id="inicio" class="relative min-h-screen flex items-center justify-center bg-white text-gray-900 overflow-hidden pt-16">
         <!-- Background Pattern -->
         <div class="absolute inset-0 opacity-5">
@@ -116,70 +116,100 @@
         <div class="container mx-auto px-4 lg:px-8 relative z-10 py-12">
             <div class="max-w-7xl mx-auto">
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <!-- Left Column - foto de fermin -->
+                    <!-- Left Column - Foto de Fermín -->
                     <div class="order-2 lg:order-1 animate-fade-in">
                         <div class="relative">
                             <!-- Main Photo -->
-                            <div class="relative aspect-[3/4] max-w-md mx-auto lg:mx-0  overflow-hidden sh">
+                            <div class="relative aspect-[3/4] max-w-md mx-auto lg:mx-0 overflow-hidden rounded-2xl shadow-2xl">
                                 <img src="/images/fermin2.jpg?height=800&width=600" alt="Dr. Fermín Silva" class="w-full h-full object-cover">
+                                
+                                <!-- Overlay gradient sutil -->
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                             </div>
 
-                            <!-- Redes sociales -->
-                            <div class="absolute -bottom-8 left-1/2 -translate-x-1/2 flex gap-4 bg-white rounded-full px-10 py-6 shadow-2xl border-2 border-gray-100">
-                                <a href="https://www.instagram.com/dr.ferminsilva/" class="w-20 h-20 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center hover:scale-110 transition-all shadow-lg" aria-label="Instagram">
-                                    <i class="fab fa-instagram text-white text-4xl"></i>
+                            <!-- Redes Sociales - Diseño Profesional -->
+                            <div class="absolute -bottom-6 left-1/2 -translate-x-1/2 flex gap-3 bg-white rounded-full px-6 py-3 shadow-xl border border-gray-100">
+                                <a href="https://www.instagram.com/dr.ferminsilva/" 
+                                   class="group w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-md hover:shadow-lg" 
+                                   aria-label="Instagram"
+                                   title="Síguenos en Instagram">
+                                    <i class="fab fa-instagram text-white text-xl group-hover:scale-110 transition-transform"></i>
                                 </a>
-                                <a href="https://www.youtube.com/@ferminsilvaperu" class="w-20 h-20 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center hover:scale-110 transition-all shadow-lg" aria-label="YouTube">
-                                    <i class="fab fa-youtube text-white text-4xl"></i>
+                                <a href="https://www.youtube.com/@ferminsilvaperu" 
+                                   class="group w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-md hover:shadow-lg" 
+                                   aria-label="YouTube"
+                                   title="Visita nuestro canal de YouTube">
+                                    <i class="fab fa-youtube text-white text-xl group-hover:scale-110 transition-transform"></i>
                                 </a>
-                                <a href="https://www.tiktok.com/@drferminsilva/" class="w-20 h-20 bg-gradient-to-br from-black to-gray-800 rounded-full flex items-center justify-center hover:scale-110 transition-all shadow-lg" aria-label="TikTok">
-                                    <i class="fab fa-tiktok text-white text-4xl"></i>
+                                <a href="https://www.tiktok.com/@drferminsilva/" 
+                                   class="group w-12 h-12 bg-gradient-to-br from-black to-gray-800 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-md hover:shadow-lg" 
+                                   aria-label="TikTok"
+                                   title="Síguenos en TikTok">
+                                    <i class="fab fa-tiktok text-white text-xl group-hover:scale-110 transition-transform"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Right Column - Content -->
-                    <div class="order-1 lg:order-2 text-center lg:text-left animate-fade-in">
-                        <div class="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 rounded-full mb-6 border border-accent/20">
-                            <i class="fas fa-award text-accent"></i>
-                            <span class="text-sm font-medium text-accent">Liderazgo en Oftalmología</span>
+                    <!-- Right Column - Contenido Optimizado -->
+                    <div class="order-1 lg:order-2 text-center lg:text-left animate-fade-in space-y-6">
+                        <div>
+                            <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight text-primary">
+                                Dr. Fermín Silva
+                            </h1>
+                            <p class="text-2xl md:text-3xl text-secondary font-semibold mb-6">
+                                Cirujano Oftalmólogo Subespecialista
+                            </p>
                         </div>
 
-                        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-primary">
-                            Fermin Silva
-                        </h1>
-
-                        <p class="text-2xl md:text-3xl text-secondary font-semibold mb-4">
-                            Cirujano Oftalmólogo Subespecialista
-                        </p>
-                        <p class="text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
-                            Fundador del departamento de capacitación, docencia e investigación de la Clínica La Luz en el 2012
-                        </p>
-                        <p class="text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
-                            Subespecialista de Segmento Anterior, Córnea y Cirugía Refractiva
-                        </p>
-                        <p class="text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
-                            Subespecialista en Córnea y Cirugía Refractiva
-                        </p>
-                        <p class="text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
-                            Profesor de fellowship de Segmento anterior, Córnea y Cirugía Refractiva
-                        </p>
-                        <p class="text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
-                            Profesor de cirugía experimental de trasplantes de córnea totales y lamelares en ojos de cerdo: : PKP, DSAEK, DMEK, DALK
-                        </p>
-                        <p class="text-base md:text-lg text-gray-700 mb-8 leading-relaxed">
-                            Fundador de Grupo Empresarial La Luz
-                        </p>
+                        <!-- Credenciales principales - Formato limpio -->
+                        <div class="space-y-3 text-gray-700">
+                            <div class="flex items-start gap-3 justify-center lg:justify-start">
+                                <i class="fas fa-graduation-cap text-accent text-xl mt-1 flex-shrink-0"></i>
+                                <p class="text-lg leading-relaxed">
+                                    <span class="font-semibold">Subespecialista</span> en Segmento Anterior, Córnea y Cirugía Refractiva
+                                </p>
+                            </div>
+                            
+                            <div class="flex items-start gap-3 justify-center lg:justify-start">
+                                <i class="fas fa-chalkboard-teacher text-accent text-xl mt-1 flex-shrink-0"></i>
+                                <p class="text-lg leading-relaxed">
+                                    <span class="font-semibold">Profesor de Fellowship</span> de Segmento Anterior, Córnea y Cirugía Refractiva
+                                </p>
+                            </div>
+                            
+                            <div class="flex items-start gap-3 justify-center lg:justify-start">
+                                <i class="fas fa-microscope text-accent text-xl mt-1 flex-shrink-0"></i>
+                                <p class="text-lg leading-relaxed">
+                                    <span class="font-semibold">Experto</span> en Trasplantes de Córnea: PKP, DSAEK, DMEK, DALK
+                                </p>
+                            </div>
+                            
+                            <div class="flex items-start gap-3 justify-center lg:justify-start">
+                                <i class="fas fa-building text-accent text-xl mt-1 flex-shrink-0"></i>
+                                <p class="text-lg leading-relaxed">
+                                    <span class="font-semibold">Fundador</span> del Departamento de Capacitación de Clínica La Luz (2012)
+                                </p>
+                            </div>
+                            
+                            <div class="flex items-start gap-3 justify-center lg:justify-start">
+                                <i class="fas fa-briefcase text-accent text-xl mt-1 flex-shrink-0"></i>
+                                <p class="text-lg leading-relaxed">
+                                    <span class="font-semibold">Fundador</span> de Grupo Empresarial La Luz
+                                </p>
+                            </div>
+                        </div>
 
                         <!-- CTAs -->
-                        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8">
-                            <a href="https://laluzeduca.clinicalaluz.com.pe/" class="bg-primary text-white px-8 py-4 rounded-lg hover:bg-secondary transition-all hover:scale-105 min-w-[220px] text-center font-semibold shadow-lg">
-                                <i class="fas fa-chalkboard-teacher mr-2"></i>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center pt-4">
+                            <a href="https://laluzeduca.clinicalaluz.com.pe/" 
+                               class="group bg-primary text-white px-8 py-4 rounded-xl hover:bg-secondary transition-all duration-300 hover:scale-105 min-w-[220px] text-center font-semibold shadow-lg hover:shadow-xl">
+                                <i class="fas fa-chalkboard-teacher mr-2 group-hover:rotate-12 transition-transform inline-block"></i>
                                 Oferta Académica
                             </a>
-                            <a href="#sobre-mi" class="border-2 border-primary text-primary px-8 py-4 rounded-lg hover:bg-primary hover:text-white transition-all hover:scale-105 min-w-[220px] text-center font-semibold">
-                                <i class="fas fa-user-md mr-2"></i>
+                            <a href="#sobre-mi" 
+                               class="group border-2 border-primary text-primary px-8 py-4 rounded-xl hover:bg-primary hover:text-white transition-all duration-300 hover:scale-105 min-w-[220px] text-center font-semibold">
+                                <i class="fas fa-user-md mr-2 group-hover:scale-110 transition-transform inline-block"></i>
                                 Conocer Más
                             </a>
                         </div>
@@ -187,52 +217,53 @@
                 </div>
 
                 <!-- Key Highlights -->
-                <div class="py-20 bg-gradient-to-b from-white to-gray-50">
-                    <div class="container mx-auto px-4">
-                        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                            <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-accent">
-                                <div class="absolute inset-0 bg-gradient-to-br from-accent/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                                <div class="relative z-10">
-                                    <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
-                                        <i class="fas fa-chalkboard-teacher text-3xl text-white"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-primary mb-4 text-center group-hover:text-secondary transition-colors duration-300">
-                                        Capacitación Continua
-                                    </h3>
-                                    <p class="text-gray-600 text-center leading-relaxed">
-                                        Compromiso permanente con la educación médica de excelencia.
-                                    </p>
+                <div class="mt-24">
+                    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                        <!-- Card 1 -->
+                        <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-accent">
+                            <div class="absolute inset-0 bg-gradient-to-br from-accent/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            <div class="relative z-10">
+                                <div class="w-16 h-16 mx-auto mb-6 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-md">
+                                    <i class="fas fa-chalkboard-teacher text-2xl text-white"></i>
                                 </div>
+                                <h3 class="text-xl font-bold text-primary mb-3 text-center group-hover:text-secondary transition-colors duration-300">
+                                    Capacitación Continua
+                                </h3>
+                                <p class="text-gray-600 text-center text-sm leading-relaxed">
+                                    Compromiso permanente con la educación médica de excelencia.
+                                </p>
                             </div>
+                        </div>
 
-                            <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-accent">
-                                <div class="absolute inset-0 bg-gradient-to-br from-accent/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                                <div class="relative z-10">
-                                    <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-accent to-[#a67c52] flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
-                                        <i class="fas fa-heart text-3xl text-white"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-primary mb-4 text-center group-hover:text-accent transition-colors duration-300">
-                                        Mi prioridad son mis pacientes
-                                    </h3>
-                                    <p class="text-gray-600 text-center leading-relaxed">
-                                        Atención centrada en el bienestar de cada paciente y en el desarrollo profesional de nuestro equipo.
-                                    </p>
+                        <!-- Card 2 -->
+                        <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-accent">
+                            <div class="absolute inset-0 bg-gradient-to-br from-accent/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            <div class="relative z-10">
+                                <div class="w-16 h-16 mx-auto mb-6 rounded-xl bg-gradient-to-br from-accent to-[#a67c52] flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-md">
+                                    <i class="fas fa-heart text-2xl text-white"></i>
                                 </div>
+                                <h3 class="text-xl font-bold text-primary mb-3 text-center group-hover:text-accent transition-colors duration-300">
+                                    Pacientes Primero
+                                </h3>
+                                <p class="text-gray-600 text-center text-sm leading-relaxed">
+                                    Atención centrada en el bienestar de cada paciente.
+                                </p>
                             </div>
+                        </div>
 
-                            <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-secondary">
-                                <div class="absolute inset-0 bg-gradient-to-br from-secondary/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                                <div class="relative z-10">
-                                    <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-secondary to-primary flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
-                                        <i class="fas fa-award text-3xl text-white"></i>
-                                    </div>
-                                    <h3 class="text-2xl font-bold text-primary mb-4 text-center group-hover:text-secondary transition-colors duration-300">
-                                        Dedicación
-                                    </h3>
-                                    <p class="text-gray-600 text-center leading-relaxed">
-                                        Más de 25 años de trayectoria dedicados a la innovación quirúrgica y al avance de la oftalmología.
-                                    </p>
+                        <!-- Card 3 -->
+                        <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-secondary">
+                            <div class="absolute inset-0 bg-gradient-to-br from-secondary/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            <div class="relative z-10">
+                                <div class="w-16 h-16 mx-auto mb-6 rounded-xl bg-gradient-to-br from-secondary to-primary flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-md">
+                                    <i class="fas fa-award text-2xl text-white"></i>
                                 </div>
+                                <h3 class="text-xl font-bold text-primary mb-3 text-center group-hover:text-secondary transition-colors duration-300">
+                                    +25 Años de Experiencia
+                                </h3>
+                                <p class="text-gray-600 text-center text-sm leading-relaxed">
+                                    Trayectoria dedicada a la innovación en oftalmología.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -241,16 +272,15 @@
         </div>
 
         <!-- Scroll Indicator -->
-        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce-slow">
-            <div class="w-6 h-10 border-2 border-gray-300 rounded-full flex items-start justify-center p-2">
-                <div class="w-1 h-3 bg-gray-400 rounded-full"></div>
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+            <div class="w-6 h-10 border-2 border-primary/30 rounded-full flex items-start justify-center p-2">
+                <div class="w-1 h-3 bg-primary/50 rounded-full animate-pulse"></div>
             </div>
         </div>
     </section>
 
-    <!-- Sección de Redes Sociales -->
-    <section class="py-20 bg-white border-b border-gray-200">
-        <div class="container mx-auto px-4 lg:px-8">
+
+
             <div class="max-w-5xl mx-auto text-center">
                 <h2 class="text-4xl md:text-5xl font-bold text-primary mb-4">Sígueme en Redes Sociales</h2>
                 <p class="text-xl text-gray-600 mb-12">
@@ -396,7 +426,7 @@
                             </div>
                             <h4 class="font-bold text-lg text-primary mb-2">4 Programas de Fellowship acreditado por la UCV</h4>
                             <p class="text-gray-600 text-sm leading-relaxed">
-                                Segmento Anterior, Córnea y Cirugía Refractiva • Glaucoma • Retina y Vítreo
+                                • Segmento Anterior, Córnea y Cirugía Refractiva • Córnea y Cirugía Refractiva • Glaucoma • Retina y Vítreo
                             </p>
                         </div>
 
